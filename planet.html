@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>蒲公英星球 · 心情日记与测评档案</title>
+<link rel="stylesheet" href="planet.css">
+</head>
+<body>
+
+<header class="topbar">
+  <div class="topbar-in">
+    <a class="brand" href="planet.html">
+      <span class="brand-mark"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3c-3 4-4 7-4 10a4 4 0 0 0 8 0c0-3-1-6-4-10z"/><path d="M6 16c-2 1-3 2.5-3 4 2 0 3.5-1 4-3M18 16c2 1 3 2.5 3 4-2 0-3.5-1-4-3"/></svg></span>
+      <span>蒲公英星球</span>
+    </a>
+    <nav class="topnav">
+      <a href="index.html" data-tab="home">测评中心</a>
+      <a href="#plaza" data-tab="plaza" id="navPlaza">星球广场</a>
+      <a href="#soup" data-tab="soup" id="navSoup">心灵鸡汤</a>
+      <a href="#mine" data-tab="mine" id="navMine">我的私人日记</a>
+      <a href="#archives" data-tab="archives" id="navArch">测评档案</a>
+    </nav>
+    <div class="userbox">
+      <span class="uname" id="uName" hidden></span>
+      <button class="btn btn-sm btn-ghost" id="btnLogout" hidden>退出</button>
+      <button class="btn btn-sm btn-pri" id="btnLogin">登录 / 注册</button>
+    </div>
+  </div>
+</header>
+
+<main id="app"></main>
+
+<footer>
+  <p><b>蒲公英星球</b> · 内容均来自注册用户分享 · 测评结果仅作自我参考，不能替代专业诊断</p>
+  <p>如有心理困扰，可拨打 <b>全国心理援助热线 12356</b>（24 小时免费）</p>
+</footer>
+
+<div class="toast" id="toast"></div>
+
+<script src="planet.js"></script>
+</body>
+</html>
